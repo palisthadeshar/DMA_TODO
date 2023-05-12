@@ -13,6 +13,7 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.Date;
 
+//tasks for the todo
 @Entity(tableName = "tasks")
 public class Task {
     @PrimaryKey(autoGenerate = true)
@@ -33,6 +34,8 @@ public class Task {
     @ColumnInfo(name="description")
     private String description;
 
+
+
     @ColumnInfo(name = "created_date")
     @TypeConverters({DateConvertor.class})
     private Date createdDate;
@@ -44,6 +47,7 @@ public class Task {
         this.title = title;
         this.description = description;
         this.createdDate = createdDate;
+
 
     }
 

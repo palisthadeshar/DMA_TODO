@@ -22,16 +22,16 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 public class MainActivity extends AppCompatActivity {
 
     FloatingActionButton fabAddNew;
-
     Fragment fragment;
     FragmentManager fragmentManager;
     AlertDialog.Builder AlterDialog;
     TodoViewModel TodoViewModel;
+    //called when activity is created. sets content to the layout
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        //manages fragment in the activity
         fragment=new TodoListFragment();
         fragmentManager=getSupportFragmentManager();
         fragmentManager.beginTransaction()

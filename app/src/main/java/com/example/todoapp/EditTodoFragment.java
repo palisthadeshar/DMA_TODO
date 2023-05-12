@@ -37,12 +37,28 @@ public class EditTodoFragment extends Fragment {
 
     private TodoViewModel todoViewModel;
     private int todoId;
+    // State information
+    private String title;
+    private String description;
+    private String date;
     //view elements
     View rootView;
     EditText txtTitle, txtDescription, txtDate;
     Button addButton,cancelButton;
     AlertDialog.Builder alertDialog;
     DatePickerDialog datePicker;
+
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+
+        // Save state information to the bundle
+        outState.putString("title", txtTitle.getText().toString());
+        outState.putString("description", txtDescription.getText().toString());
+        outState.putString("date", txtDate.getText().toString());
+    }
+
 
 
     //called when fragment is being created, inflates layout and initlizes the UI
@@ -54,6 +70,11 @@ public class EditTodoFragment extends Fragment {
 
         // Inflate the layout for the fragment
         rootView = inflater.inflate(R.layout.fragment_edit_todo, container, false);
+        if (savedInstanceState != null) {
+            title = savedInstanceState.getString("title");
+            description = savedInstanceState.getString("description");
+            date = savedInstanceState.getString("date");
+        }
         //creates new instance of TodoViewModel
         todoViewModel = ViewModelProviders.of(this).get(TodoViewModel.class);
         txtTitle = rootView.findViewById(R.id.edit_txt_title);
@@ -62,6 +83,8 @@ public class EditTodoFragment extends Fragment {
         addButton = rootView.findViewById(R.id.edit_btn_save);
         cancelButton = rootView.findViewById(R.id.edit_btn_cancel);
         txtDate = rootView.findViewById(R.id.edit_txt_date);
+
+
 
 
         //adding click listener on save button for adding new todo
@@ -105,6 +128,7 @@ public class EditTodoFragment extends Fragment {
         return rootView; //returns UI element of the fragment
 
     }
+
     //Alert Dailog Box Cancellation
     void DisplayAlertDialog(){
         alertDialog = new AlertDialog.Builder(getContext());

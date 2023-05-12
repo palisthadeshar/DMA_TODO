@@ -96,7 +96,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\pa
 	android:label
 		ADDED from C:\Users\palis\AndroidStudioProjects\Final_todo_app-todo\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from C:\Users\palis\AndroidStudioProjects\Final_todo_app-todo\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\palis\AndroidStudioProjects\Final_todo_app-todo\app\src\main\AndroidManifest.xml:9:9-46
 	android:icon
 		ADDED from C:\Users\palis\AndroidStudioProjects\Final_todo_app-todo\app\src\main\AndroidManifest.xml:7:9-41
 	android:allowBackup

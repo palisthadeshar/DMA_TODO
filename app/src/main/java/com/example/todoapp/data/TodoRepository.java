@@ -11,6 +11,7 @@ import java.util.List;
 
 public class TodoRepository {
     private TodoDAO mTodoDAO;
+    //views all the changes in the database
     private LiveData<List<Task>> mAllTodoList;
 
     public TodoRepository(Application application) {

@@ -3,7 +3,7 @@ package com.example.todoapp.util;
 import androidx.room.TypeConverter;
 
 import java.util.Date;
-
+//creates and return date object
 public class DateConvertor {
     @TypeConverter
     public static Date toDate(Long timeStamp){

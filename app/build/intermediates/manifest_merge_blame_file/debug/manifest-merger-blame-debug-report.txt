@@ -21,8 +21,8 @@
 15-->C:\Users\palis\AndroidStudioProjects\Final_todo_app-todo\app\src\main\AndroidManifest.xml:7:9-41
 16        android:label="@string/app_name"
 16-->C:\Users\palis\AndroidStudioProjects\Final_todo_app-todo\app\src\main\AndroidManifest.xml:8:9-41
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\Users\palis\AndroidStudioProjects\Final_todo_app-todo\app\src\main\AndroidManifest.xml:9:9-54
+17        android:roundIcon="@mipmap/todo_logo"
+17-->C:\Users\palis\AndroidStudioProjects\Final_todo_app-todo\app\src\main\AndroidManifest.xml:9:9-46
 18        android:supportsRtl="true"
 18-->C:\Users\palis\AndroidStudioProjects\Final_todo_app-todo\app\src\main\AndroidManifest.xml:10:9-35
 19        android:testOnly="true"

@@ -32,6 +32,7 @@ public class TodoListFragment extends Fragment {
     private TodoViewModel TodoViewModel;
     RecyclerView todoRecyclerView;
     //layout for the fragment is inflated using layoutinflater and viewGroup (parameter)
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

@@ -10,6 +10,7 @@ public class EditTodoActivity extends AppCompatActivity {
 
     Fragment frag;
     FragmentManager frag_manager;
+    //adds new fragment to the activity and commits the transaction and display the fragment in activity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
