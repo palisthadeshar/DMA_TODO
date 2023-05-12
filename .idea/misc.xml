@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/admin/AndroidStudioProjects/New folder/FinalTodo/FinalTodo/app/src/main/res/drawable/ic_addd_todo.xml" value="0.14" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/New folder/FinalTodo/FinalTodo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/New folder/FinalTodo/FinalTodo/app/src/main/res/drawable/mybutton.xml" value="0.14" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/New folder/FinalTodo/FinalTodo/app/src/main/res/drawable/text_background.xml" value="0.14" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/New folder/FinalTodo/FinalTodo/app/src/main/res/layout-land/fragment_edit_todo.xml" value="0.1" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/New folder/FinalTodo/FinalTodo/app/src/main/res/layout/activity_edit_todo.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/New folder/FinalTodo/FinalTodo/app/src/main/res/layout/activity_main.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/New folder/FinalTodo/FinalTodo/app/src/main/res/layout/fragment_edit_todo.xml" value="0.38153846153846155" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/New folder/FinalTodo/FinalTodo/app/src/main/res/layout/fragment_todo_list.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/New folder/FinalTodo/FinalTodo/app/src/main/res/layout/list_item_todo.xml" value="0.20208333333333334" />
+        <entry key="..\:/Users/admin/AndroidStudioProjects/New folder/FinalTodo/FinalTodo/app/src/main/res/menu/main_menu.xml" value="0.38153846153846155" />
+        <entry key="..\:/Users/admin/Documents/DMA all lab/FinalTodo/app/src/main/res/layout/list_item_todo.xml" value="0.3875" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

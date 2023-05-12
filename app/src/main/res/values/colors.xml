@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3700B3</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="fab_background">#E11111</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="yellow_900">#F57F17</color>
+    <color name="yellow_800">#F9A825</color>
+    <color name="yellow_500">#FFEB3B</color>
+    <color name="yellow_600">#FDD835</color>
+    <color name="yellow_0">#FFFDE7</color>
+    <color name="color_high_priority">#FFCCCB</color>
+    <color name="color_medium_priority">#fed8b1</color>
+    <color name="color_low_priority">#2FDD29</color>
+    <color name="green">#33691E</color>
+    <color name="toolbar">#b5838d</color>
+    <color name="black">#FF000000</color>
+</resources>

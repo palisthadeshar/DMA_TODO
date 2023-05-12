@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Todo App</string>
+    <string name="Splash_welcome">Welcome</string>
+    <string name="quit_application">Exit Application?</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="hello_blank_fragment">Blank fragment</string>
+    <string name="edit_Title">Title</string>
+    <string name="edit_Description">Description</string>
+    <string name="edit_date">Date</string>
+    <string name="edit_is_complete">Is Complete</string>
+    <string name="edit_save">Save</string>
+    <string name="edit_cancel_promt">Cancel the edit?</string>
+    <string name="crud_save">Added</string>
+    <string name="crud_update">Updated</string>
+    <string name="crud_deleteall">All items deleted</string>
+    <string name="edit_update">Update</string>
+    <string name="textview">TextView</string>
+    <string name="todo">TODO</string>
+    <string name="button">Delete</string>
+
+
+</resources>

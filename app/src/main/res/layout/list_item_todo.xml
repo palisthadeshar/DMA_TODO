@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10sp"
+    android:background="@drawable/shadow"
+    android:bottom="9dp"
+    android:left="0dp"
+    android:orientation="vertical"
+    android:padding="10sp"
+    android:paddingStart="10sp"
+    android:paddingLeft="10sp"
+    android:right="0dp"
+    android:top="0dp">
+
+    <TextView
+        android:id="@+id/list_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2sp"
+        android:layout_weight="1"
+
+        android:fontFamily="sans-serif-black"
+        android:padding="10sp"
+        android:text="@string/textview"
+        android:textColor="#8C8A8A"
+        android:textSize="30sp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:id="@+id/list_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0sp"
+        android:layout_weight="1"
+
+        android:padding="10sp"
+        android:text="@string/textview"
+        android:textColor="#151414"
+
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/list_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="10sp"
+
+        android:text="@string/textview"
+        android:textColor="#8C8A8A"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/todo_completed_note"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1"-->
+<!--        android:padding="10sp"-->
+
+<!--        android:text="@string/textview"-->
+<!--        android:textColor="#8C8A8A"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textStyle="normal" />-->
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:background="#4169e1"
+            android:padding="10sp"
+            android:text="Remove"
+            android:textColor="#FBF9F9"
+            tools:text="Delete" />
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:background="#4169e1"
+            android:padding="10sp"
+            android:text="Update"
+            android:textColor="#FBF9F9"
+            tools:text="Update" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
