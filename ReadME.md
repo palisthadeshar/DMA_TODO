@@ -8,10 +8,10 @@ A to-do app is created using MVVM, Fragment, RecyclerView, and Room Database so 
 5. The ViewModel layer updates the View layer with the new data using LiveData, which automatically updates the UI
 
 **Installation Guideline**
-Download Zip
-Download dependency
-Select device
-Run the app
+1. Download Zip
+2. Download dependency
+3. Select device
+4. Run the app
 
 **Features Of App**
 1) A User Friendly UI Interface
