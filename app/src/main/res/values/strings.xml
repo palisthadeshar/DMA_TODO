@@ -18,6 +18,7 @@
     <string name="textview">TextView</string>
     <string name="todo">TODO</string>
     <string name="button">Delete</string>
+    <string name="strike"> Geeks <strike>For Geeks </strike> </string>
 
 
 </resources>

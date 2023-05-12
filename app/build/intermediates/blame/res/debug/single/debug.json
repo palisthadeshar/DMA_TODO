@@ -184,6 +184,10 @@
         "source": "C:\\Users\\palis\\AndroidStudioProjects\\Final_todo_app-todo\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_addd_todo.png"
     },
     {
+        "merged": "C:\\Users\\palis\\AndroidStudioProjects\\Final_todo_app-todo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_strike.xml.flat",
+        "source": "C:\\Users\\palis\\AndroidStudioProjects\\Final_todo_app-todo\\app\\src\\main\\res\\drawable\\strike.xml"
+    },
+    {
         "merged": "C:\\Users\\palis\\AndroidStudioProjects\\Final_todo_app-todo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\palis\\AndroidStudioProjects\\Final_todo_app-todo\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },

@@ -20,7 +20,6 @@
         android:layout_height="wrap_content"
         android:layout_margin="2sp"
         android:layout_weight="1"
-
         android:fontFamily="sans-serif-black"
         android:padding="10sp"
         android:text="@string/textview"
@@ -71,6 +70,19 @@
         android:layout_width="match_parent"
         android:layout_height="140dp"
         android:orientation="horizontal">
+        <Button
+            android:id="@+id/change"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:background="#4169e1"
+            android:padding="10sp"
+            android:text="Completed"
+            android:textColor="#FBF9F9"
+            tools:text="Delete" />
+
         <Button
             android:id="@+id/delete"
             android:layout_width="109dp"

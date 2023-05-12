@@ -1281,6 +1281,7 @@ drawable notify_panel_notification_icon_bg
 drawable pattern1
 drawable remember
 drawable shadow
+drawable strike
 drawable text_background
 drawable todo_logo
 drawable tooltip_frame_dark
@@ -1361,6 +1362,7 @@ id center
 id center_horizontal
 id center_vertical
 id chains
+id change
 id checkbox
 id checked
 id chip
@@ -1758,6 +1760,7 @@ string path_password_strike_through
 string quit_application
 string search_menu_title
 string status_bar_notification_info_overflow
+string strike
 string textview
 string todo
 style AlertDialog_AppCompat

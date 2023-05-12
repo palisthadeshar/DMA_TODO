@@ -2,6 +2,7 @@ package com.example.todoapp;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.graphics.Paint;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -97,6 +98,7 @@ public class TodoListFragment extends Fragment {
     private class TodoHolder extends RecyclerView.ViewHolder{
         TextView Title, Date, Desprition;
         Button DeleteBtn,todoUpdate;
+        Button change;
         //initiliazed with the corresponding view
         public TodoHolder(LayoutInflater inflater, ViewGroup parentViewGroup) {
             super(inflater.inflate(R.layout.list_item_todo, parentViewGroup, false));
@@ -105,7 +107,29 @@ public class TodoListFragment extends Fragment {
             Desprition=itemView.findViewById(R.id.list_description);
             DeleteBtn = itemView.findViewById(R.id.delete);
             todoUpdate = itemView.findViewById(R.id.update);
+            change = itemView.findViewById(R.id.change);
 
+            change.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    // if the text is not having strike then set strike else vice versa
+                    if (!Title.getPaint().isStrikeThruText()) {
+                        Title.setPaintFlags(Title.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
+                    } else {
+                        Title.setPaintFlags(Title.getPaintFlags() & ~Paint.STRIKE_THRU_TEXT_FLAG);
+                    }
+                    if (!Desprition.getPaint().isStrikeThruText()) {
+                        Desprition.setPaintFlags(Desprition.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
+                    } else {
+                        Desprition.setPaintFlags(Desprition.getPaintFlags() & ~Paint.STRIKE_THRU_TEXT_FLAG);
+                    }
+                    if (!Date.getPaint().isStrikeThruText()) {
+                        Date.setPaintFlags(Date.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
+                    } else {
+                        Date.setPaintFlags(Date.getPaintFlags() & ~Paint.STRIKE_THRU_TEXT_FLAG);
+                    }
+                }
+            });
             //deletes the selected todo
             DeleteBtn.setOnClickListener(new View.OnClickListener() {
                 @Override
