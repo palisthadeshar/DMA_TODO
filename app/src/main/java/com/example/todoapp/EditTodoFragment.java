@@ -45,7 +45,7 @@ public class EditTodoFragment extends Fragment {
     DatePickerDialog datePicker;
 
 
-
+    //called when fragment is being created, inflates layout and initlizes the UI
     @SuppressLint({"ClickableViewAccessibility", "SimpleDateFormat"})
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -54,6 +54,7 @@ public class EditTodoFragment extends Fragment {
 
         // Inflate the layout for the fragment
         rootView = inflater.inflate(R.layout.fragment_edit_todo, container, false);
+        //creates new instance of TodoViewModel
         todoViewModel = ViewModelProviders.of(this).get(TodoViewModel.class);
         txtTitle = rootView.findViewById(R.id.edit_txt_title);
         txtDescription = rootView.findViewById(R.id.edit_txt_description);
@@ -101,7 +102,7 @@ public class EditTodoFragment extends Fragment {
             txtDate.setText(formatter.format(todo.getCreatedDate()));
 
         }
-        return rootView;
+        return rootView; //returns UI element of the fragment
 
     }
     //Alert Dailog Box Cancellation

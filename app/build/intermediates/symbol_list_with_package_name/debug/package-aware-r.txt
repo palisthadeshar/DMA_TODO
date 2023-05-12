@@ -1282,6 +1282,7 @@ drawable pattern1
 drawable remember
 drawable shadow
 drawable text_background
+drawable todo_logo
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -1687,6 +1688,7 @@ menu main_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 mipmap ic_splash_bg
+mipmap todo_logo
 string Splash_welcome
 string abc_action_bar_home_description
 string abc_action_bar_up_description

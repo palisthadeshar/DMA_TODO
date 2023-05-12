@@ -31,23 +31,26 @@ public class TodoListFragment extends Fragment {
     View rootView;
     private TodoViewModel TodoViewModel;
     RecyclerView todoRecyclerView;
+    //layout for the fragment is inflated using layoutinflater and viewGroup (parameter)
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         rootView = inflater.inflate(R.layout.fragment_todo_list, container, false);
+        //returns viewModel instance associated with the fragment. stores and manages data for the recycler view.
         TodoViewModel = ViewModelProviders.of(this).get(TodoViewModel.class);
+        //LinearLayoutManager is created and set to the RecyclerView to specify the layout of the items in the list.
         todoRecyclerView = rootView.findViewById(R.id.recyclerview);
         LinearLayoutManager layoutManager= new LinearLayoutManager(getActivity());
         layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         todoRecyclerView.setLayoutManager(layoutManager);
-        updateRV();
+        updateRecyclerView(); //updates new data to the recycler view
 
         return rootView;
     }
 
-    //for displaying todo list in main page
-    void updateRV(){
+    //updates the recyclerview
+    void updateRecyclerView(){
         TodoViewModel.getAllTodos().observe(this, new Observer<List<Task>>() {
             @Override
             public void onChanged(List<Task> todoList) {
@@ -56,39 +59,44 @@ public class TodoListFragment extends Fragment {
             }
         });
     }
+    //binds data into the recycler view
     private class TodoAdapter extends RecyclerView.Adapter<TodoHolder>{
+        //lists for the todo
         List<Task> mTodoList;
         public TodoAdapter(List<Task> todoList){
             mTodoList = todoList;
         }
         @NonNull
         @Override
+        //creates a new view holder
         public TodoHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
             LayoutInflater layoutInflater = LayoutInflater.from(getContext());
             return new TodoHolder(layoutInflater, parent);
         }
-        //for changing the color of todo list according to the priority
+        //binds data to the viewholder
         @Override
         public void onBindViewHolder(@NonNull TodoHolder holder, int position) {
             Task todo = mTodoList.get(position);
             LinearLayout layout = (LinearLayout)((ViewGroup)holder.Title.getParent());
-                        holder.bind(todo);
+            holder.bind(todo); //data updated
         }
         @Override
         public int getItemCount() {
             return mTodoList.size();
         }
-        public Task getTodo(int index){
-            return mTodoList.get(index);
-        }
-
+//        public Task getTodo(int index){
+//            return mTodoList.get(index);
+//        }
+        //retrives todo tasks
         public Task getTodoAt(int index){
             return mTodoList.get(index);
         }
     }
+    //holds view for the each recycler view
     private class TodoHolder extends RecyclerView.ViewHolder{
         TextView Title, Date, Desprition;
         Button DeleteBtn,todoUpdate;
+        //initiliazed with the corresponding view
         public TodoHolder(LayoutInflater inflater, ViewGroup parentViewGroup) {
             super(inflater.inflate(R.layout.list_item_todo, parentViewGroup, false));
             Title = itemView.findViewById(R.id.list_title);
@@ -97,6 +105,7 @@ public class TodoListFragment extends Fragment {
             DeleteBtn = itemView.findViewById(R.id.delete);
             todoUpdate = itemView.findViewById(R.id.update);
 
+            //deletes the selected todo
             DeleteBtn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -107,7 +116,7 @@ public class TodoListFragment extends Fragment {
                 }
             });
 
-            //for updating the list while the user clicks the todo
+            //for updating the list while the user clicks the todo starts new todo edit acitvity
             todoUpdate.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -119,28 +128,28 @@ public class TodoListFragment extends Fragment {
                     startActivity(intent);
                 }
             });
-            Desprition.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    TodoAdapter adapter = new TodoAdapter(TodoViewModel.getAllTodos().getValue());
-                    int position = getAdapterPosition();
-                    Task task = adapter.getTodoAt(position);
-                    Intent intent = new Intent(getActivity(),EditTodoActivity.class);
-                    intent.putExtra("TodoId", task.getId());
-                    startActivity(intent);
-                }
-            });
-            Date.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    TodoAdapter adapter = new TodoAdapter(TodoViewModel.getAllTodos().getValue());
-                    int position = getAdapterPosition();
-                    Task task = adapter.getTodoAt(position);
-                    Intent intent = new Intent(getActivity(),EditTodoActivity.class);
-                    intent.putExtra("TodoId", task.getId());
-                    startActivity(intent);
-                }
-            });
+//            Desprition.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v) {
+//                    TodoAdapter adapter = new TodoAdapter(TodoViewModel.getAllTodos().getValue());
+//                    int position = getAdapterPosition();
+//                    Task task = adapter.getTodoAt(position);
+//                    Intent intent = new Intent(getActivity(),EditTodoActivity.class);
+//                    intent.putExtra("TodoId", task.getId());
+//                    startActivity(intent);
+//                }
+//            });
+//            Date.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v) {
+//                    TodoAdapter adapter = new TodoAdapter(TodoViewModel.getAllTodos().getValue());
+//                    int position = getAdapterPosition();
+//                    Task task = adapter.getTodoAt(position);
+//                    Intent intent = new Intent(getActivity(),EditTodoActivity.class);
+//                    intent.putExtra("TodoId", task.getId());
+//                    startActivity(intent);
+//                }
+//            });
         }
         //For displaying the list
         public void bind(Task todo){

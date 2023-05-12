@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
             case R.id.menu_delete_all:
                 //confirmation dailog box
                 AlterDialog = new AlertDialog.Builder(this);
-                AlterDialog.setMessage("Are you sure want to delete all??")
+                AlterDialog.setMessage("Do you want to delete all?")
                         .setCancelable(false)
                         .setTitle(getString(R.string.app_name));
 
@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
             //for exiting the app
             case R.id.menu_logout:
                 AlterDialog = new AlertDialog.Builder(this);
-                AlterDialog.setMessage("Are you sure want to exit?")
+                AlterDialog.setMessage("Do you want to exit?")
                         .setCancelable(false)
                         .setTitle(getString(R.string.app_name));
 

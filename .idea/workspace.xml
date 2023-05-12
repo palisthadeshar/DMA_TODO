@@ -9,22 +9,65 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4830c8d0-c6fd-4b22-9373-cc437b6be75e" name="Changes" comment="" />
+    <list default="true" id="4830c8d0-c6fd-4b22-9373-cc437b6be75e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/todoapp/TodoListFragment$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/todoapp/TodoListFragment$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/todoapp/TodoListFragment$TodoAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/todoapp/TodoListFragment$TodoAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/todoapp/TodoListFragment$TodoHolder$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/todoapp/TodoListFragment$TodoHolder$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/todoapp/TodoListFragment$TodoHolder$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/todoapp/TodoListFragment$TodoHolder$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/todoapp/TodoListFragment$TodoHolder$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/todoapp/TodoListFragment$TodoHolder$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/todoapp/TodoListFragment$TodoHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/todoapp/TodoListFragment$TodoHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/todoapp/TodoListFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/todoapp/TodoListFragment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/todoapp/viewmodel/TodoViewModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/todoapp/viewmodel/TodoViewModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/todoapp/TodoListFragment$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/todoapp/TodoListFragment$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/todoapp/TodoListFragment$TodoAdapter.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/todoapp/TodoListFragment$TodoAdapter.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/todoapp/TodoListFragment$TodoHolder$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/todoapp/TodoListFragment$TodoHolder$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/todoapp/TodoListFragment$TodoHolder$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/todoapp/TodoListFragment$TodoHolder$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/todoapp/TodoListFragment$TodoHolder$3.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/todoapp/TodoListFragment$TodoHolder$4.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/todoapp/TodoListFragment$TodoHolder.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/todoapp/TodoListFragment$TodoHolder.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/todoapp/TodoListFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/todoapp/TodoListFragment.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/todoapp/viewmodel/TodoViewModel.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/todoapp/viewmodel/TodoViewModel.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/todoapp/EditTodoFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/todoapp/EditTodoFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/todoapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/todoapp/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/todoapp/TodoListFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/todoapp/TodoListFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/todoapp/viewmodel/TodoViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/todoapp/viewmodel/TodoViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[RZ8RB1K8WSJ]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2PefrjhFXmtiHr5t9GLAJJb1ZJC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,9 +78,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/palis/AndroidStudioProjects/Final_todo_app-todo"
+    "last_directory_selection": "C:/Users/palis/AndroidStudioProjects/Final_todo_app-todo/app/src/main/res/mipmap-anydpi-v26",
+    "last_opened_file_path": "C:/Users/palis/AndroidStudioProjects/Final_todo_app-todo/app/src/main/res/mipmap-anydpi-v26"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\palis\AndroidStudioProjects\Final_todo_app-todo\app\src\main\res\mipmap-anydpi-v26" />
+      <recent name="C:\Users\palis\AndroidStudioProjects\Final_todo_app-todo\app\src\main\res\drawable" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="TodoApp.app.main" />
@@ -108,5 +158,21 @@
       <updated>1683822669235</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/todoapp/TodoListFragment.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/todoapp/TodoListFragment.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

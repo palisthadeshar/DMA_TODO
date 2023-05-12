@@ -128,6 +128,10 @@
         "source": "C:\\Users\\palis\\AndroidStudioProjects\\Final_todo_app-todo\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_splash_bg.png"
     },
     {
+        "merged": "C:\\Users\\palis\\AndroidStudioProjects\\Final_todo_app-todo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_todo_logo.png.flat",
+        "source": "C:\\Users\\palis\\AndroidStudioProjects\\Final_todo_app-todo\\app\\src\\main\\res\\drawable\\todo_logo.png"
+    },
+    {
         "merged": "C:\\Users\\palis\\AndroidStudioProjects\\Final_todo_app-todo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\palis\\AndroidStudioProjects\\Final_todo_app-todo\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
@@ -190,6 +194,10 @@
     {
         "merged": "C:\\Users\\palis\\AndroidStudioProjects\\Final_todo_app-todo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_addd_todo.png.flat",
         "source": "C:\\Users\\palis\\AndroidStudioProjects\\Final_todo_app-todo\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_addd_todo.png"
+    },
+    {
+        "merged": "C:\\Users\\palis\\AndroidStudioProjects\\Final_todo_app-todo\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_todo_logo.png.flat",
+        "source": "C:\\Users\\palis\\AndroidStudioProjects\\Final_todo_app-todo\\app\\src\\main\\res\\mipmap-anydpi-v26\\todo_logo.png"
     },
     {
         "merged": "C:\\Users\\palis\\AndroidStudioProjects\\Final_todo_app-todo\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mybutton.xml.flat",
