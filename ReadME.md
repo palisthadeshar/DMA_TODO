@@ -13,12 +13,14 @@ A to-do app is created using MVVM, Fragment, RecyclerView, and Room Database so 
 3. Select device
 4. Run the app
 
-**Features Of App**
+**Features of App**
 1) A User Friendly UI Interface
 2) Create task
 3) Update task
 4) Delete a task or all tasks
 5) Error validation when input fields are null
+6) Strike the task when completed
+
 
 ![gif](todoapp.gif)
 
